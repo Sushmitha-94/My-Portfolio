@@ -1,1 +1,13 @@
 $mainColor: white;
+
+$width : 700px;
+
+@mixin tab{
+    @media (max-width: #{$width}){
+        @content 
+    }
+}
+
+@mixin mobile {
+    
+}
