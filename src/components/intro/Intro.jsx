@@ -6,7 +6,8 @@ export default function intro() {
       <div className="wrapper">
         <img src="assets/girl_logo.png" alt=""/>     
         <h2> Hi There! I'm</h2>
-        <h1>Susmitha Tamilselvan</h1>
+        <h1>Susmitha</h1>
+        <h1>Tamilselvan</h1>
       </div>            
     </div>
     <div className = "right">

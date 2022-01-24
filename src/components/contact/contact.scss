@@ -1,3 +1,5 @@
+@import "../../global.scss";
+
 .contact{
     background-color: white;
     display: flex;
@@ -13,6 +15,14 @@
 
         h2{
             font-size: 30px;
+
+            @include tab{
+                font-size: 25px;
+            }
+
+            @include mobile{
+                font-size: 20px;
+            }
         }
 
         form{
@@ -24,15 +34,31 @@
             justify-content: space-around;
 
             input{
-                width: 300px;
+                width: 450px;
                 height: 30px;
                 font-size: 14px;
+
+                @include tab{
+                    width: 280px;
+                }
+
+                @include mobile{
+                    width: 200px;
+                }
             }
 
             textarea{
-                width: 300px;
+                width: 450px;
                 height: 200px;
                 font-size: 14px;
+
+                @include tab{
+                    width: 280px;
+                }
+
+                @include mobile{
+                    width: 200px;
+                }
             }
 
             button{
@@ -44,7 +70,14 @@
                 border-radius: 10px;
                 font-weight: 500;
                 cursor: pointer;
+                
+                @include tab{
+                    width: 120px;
+                }
 
+                @include mobile{
+                    width: 100px;
+                }
                
             }
 
