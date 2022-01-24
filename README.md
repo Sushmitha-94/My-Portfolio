@@ -9,6 +9,8 @@ Develop professional portfolio
 
 - React with Sass
 
+# Milestones
+
 #Milestone1:
 - Topbar 
    * Design of Topbar
