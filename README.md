@@ -51,4 +51,9 @@ Develop professional portfolio
   * Thank you note
 
 #Milestone6:
+- Content confirmation
 - Bugs
+  * Remove S logo from top
+  * Remove down arrow and insert View my work button
+  * Redirect mail on topbar to contact me button
+  * Add more to about me description
