@@ -19,7 +19,7 @@ export default function Projects() {
       </div>
       <div className="item">
         <img src="assets/project.jpeg" alt=""/>
-        <h3>DS and Algo</h3>
+        <h3>DS and Algoo</h3>
       </div>
     </div>
   </div>;
