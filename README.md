@@ -45,12 +45,15 @@ Develop professional portfolio
   * Thank you note
 
 #Milestone5:
+- Responsiveness
+
+#Milestone6:
 - Resume Section
   * Content of the section
   * Option to view the file
   * Option to download the file
 
-#Milestone6:
+#Milestone7:
 - Content confirmation
 - Bugs
   * Remove S logo from top
