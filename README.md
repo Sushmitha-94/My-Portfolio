@@ -53,3 +53,4 @@ Develop professional portfolio
 #Milestone6:
 - Content confirmation
 - Bugs
+  * Remove S logo from top
