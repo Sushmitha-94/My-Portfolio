@@ -15,9 +15,10 @@ export default function intro() {
           FullStack Developer
         </h3>     
       </div>
-      <a href="#projects">
+      
+    </div>  
+    <a href="#projects">
         <img src="assets/down.png" alt=""/>
-      </a>
-    </div>    
+      </a>  
   </div>;
 }

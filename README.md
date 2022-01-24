@@ -38,17 +38,17 @@ Develop professional portfolio
    * Picture for every project
 
 #Milestone4:
-- Resume Section
-  * Content of the section
-  * Option to view the file
-  * Option to download the file
-
-#Milestone5:
 - Contact Me Section
   * Design of the section
   * Form creation
   * On submit, should receive a mail
   * Thank you note
+
+#Milestone5:
+- Resume Section
+  * Content of the section
+  * Option to view the file
+  * Option to download the file
 
 #Milestone6:
 - Content confirmation
