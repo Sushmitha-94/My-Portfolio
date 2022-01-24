@@ -51,4 +51,5 @@ Develop professional portfolio
   * Thank you note
 
 #Milestone6:
+- Content confirmation
 - Bugs
