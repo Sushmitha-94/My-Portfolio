@@ -56,3 +56,4 @@ Develop professional portfolio
   * Remove S logo from top
   * Remove down arrow and insert View my work button
   * Redirect mail on topbar to contact me button
+  * Add more to about me description
