@@ -3,7 +3,11 @@ Develop professional portfolio
 
 # Goal
 
-- Create a simple interactive UI
+- Create a simple responsive UI
+
+# Technologies Used
+
+- React with Sass
 
 #Milestone1:
 - Topbar 
@@ -43,3 +47,6 @@ Develop professional portfolio
   * Form creation
   * On submit, should receive a mail
   * Thank you note
+
+#Milestone6:
+- Bugs
