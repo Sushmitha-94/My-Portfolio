@@ -3,7 +3,6 @@
 .topbar{
     width: 100%;
     height: 7%;
-    background-color: $mainColor;
     color: black;
     font-weight: bold;
     position:fixed;
@@ -34,14 +33,26 @@
                     display: none;
                 }
 
-                .icon{
-                    font-size: 16px;
-                    margin-right: 2px;
-                }
+                
 
                 span{
                     font-size: 15px;
                     font-weight: 500;
+                    
+                    a{
+                        font-size: inherit;
+                        color: inherit;
+                        text-decoration: none;
+
+                        .icon{
+                            font-size: 17px;
+                            margin-right: 2px;
+                        }
+
+                        span{
+                            margin-top: 2px;
+                        }
+                    }
                 }
             }
 

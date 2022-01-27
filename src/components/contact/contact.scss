@@ -1,7 +1,6 @@
 @import "../../global.scss";
 
 .contact{
-    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -77,6 +76,11 @@
 
                 @include mobile{
                     width: 100px;
+                }
+
+                &:hover{
+                    color: black;
+                    background-color: lightgray;
                 }
                
             }

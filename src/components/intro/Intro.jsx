@@ -1,6 +1,18 @@
 import "./intro.scss";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
 
-export default function intro() {
+import Projects from "../projects/Projects";
+
+import Contact from "../contact/Contact";
+
+function intro(){
+
+
   return <div className="intro" id="intro">
     <div className="left">
       <div className="wrapper">
@@ -14,7 +26,16 @@ export default function intro() {
       <div className="wrapper">
         <h3>
           FullStack Developer
-        </h3>     
+        </h3> 
+        <p>
+          Graduate student and Full Stack Developer with 6+ years of hands-on experience designing, developing, and implementing applications and solutions using a range of technologies and programming languages.
+        </p>
+        <div className="buttons">
+        
+          <button type="Submit" onClick={ () => {} }>Projects</button>
+          <button type="Submit" >Resume</button>   
+          <button type="Submit" >Contact</button> 
+        </div>
       </div>
       
     </div>  
@@ -23,3 +44,5 @@ export default function intro() {
       </a>  
   </div>;
 }
+
+export default intro;
