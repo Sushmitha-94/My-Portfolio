@@ -21,7 +21,7 @@ export default function Projects() {
         <img src="assets/project.jpeg" alt=""/>
         <h3>DS and Algoo</h3>
       </div>
-    </div><a href="#contact">
+    </div><a href="#resume">
         <img src="assets/down.png" alt=""/>
       </a>
 
