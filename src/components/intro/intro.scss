@@ -1,7 +1,6 @@
 @import "../../global.scss";
 
 .intro{
-    background-color: white;
     display: flex;
 
     @include tab{
@@ -66,7 +65,7 @@
         
 
         .wrapper{
-            width: 100%;
+            width: 85%;
             height: 100%;
             padding-left: 50px;
             padding-right: 50px;
@@ -75,6 +74,7 @@
             justify-content: center;
 
             @include tab{
+                width: 100%;
                 padding-left: 0;
                 padding-right: 0;
                 align-items: center;
@@ -89,6 +89,46 @@
                     font-size: 20px;
                 }
             }
+
+            p{
+                font-size: 20px;
+                margin: 10px 10px;
+                font-weight: 300;
+
+                @include tab{
+                    font-size: 15px;
+                }
+            }
+
+            .buttons{
+
+                
+                display: flex;
+                justify-content: center;
+                button{
+                    margin: 5px 10px;
+                    width: 150px;
+                    height: 30px;
+                    color: white;
+                    background-color: rgb(51, 49, 49);
+                    border: none;
+                    border-radius: 10px;
+                    font-weight: 500;
+                    cursor: pointer;
+                    transition: all 1s ease;
+
+                    &:hover{
+                        color: black;
+                        background-color: lightgray;
+                    }
+                }
+
+                @include tab{
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+            
         }
         a{
             position: absolute;

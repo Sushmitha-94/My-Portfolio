@@ -1,12 +1,15 @@
 .app{
     height: 100vh;
+    background: url('../public/assets/back6.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     .sections{
         width: 100%;
         height: calc(100vh - 70px);
-        background-color: mistyrose;
         position: relative;
-        top: 70px;
+        top: 55px;
         scroll-behavior: smooth;
         scroll-snap-type: y mandatory;
         scrollbar-width: none;
