@@ -35,10 +35,7 @@ function intro(){
                                                   e.preventDefault();
                                                   window.location.href='#resume';
                                                   }}>Resume</button>   
-          <button type="Submit" onClick={(e) => {
-                                                  e.preventDefault();
-                                                  window.location.href='#contact';
-                                                  }}>Contact</button> 
+          <button type="Submit" onClick={() => window.location = 'mailto:st.sushmi@gmail.com'}>Contact</button> 
         </div>
       </div>
       
