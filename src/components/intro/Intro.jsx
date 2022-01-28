@@ -1,13 +1,8 @@
 import "./intro.scss";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Redirect,
-} from "react-router-dom";
+
 
 import Projects from "../projects/Projects";
-
+import Resume from "../resume/Resume";
 import Contact from "../contact/Contact";
 
 function intro(){
@@ -32,9 +27,18 @@ function intro(){
         </p>
         <div className="buttons">
         
-          <button type="Submit" onClick={ () => {} }>Projects</button>
-          <button type="Submit" >Resume</button>   
-          <button type="Submit" >Contact</button> 
+          <button type="Submit" onClick={(e) => {
+                                                  e.preventDefault();
+                                                  window.location.href='#projects';
+                                                  }}>Projects</button>
+          <button type="Submit" onClick={(e) => {
+                                                  e.preventDefault();
+                                                  window.location.href='#resume';
+                                                  }}>Resume</button>   
+          <button type="Submit" onClick={(e) => {
+                                                  e.preventDefault();
+                                                  window.location.href='#contact';
+                                                  }}>Contact</button> 
         </div>
       </div>
       

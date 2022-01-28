@@ -1,2 +1,114 @@
 .resume{
+    display: flex;
+
+    .left{
+        flex: 0.8;
+
+        .section{
+
+            margin: 20px;
+
+            h1 {
+                font-family: sans-serif;
+                margin: 10px auto;
+                color: #0f4427;
+                font-size: 25px;
+              }
+
+            .innerSec{
+                display: flex;
+
+                .heading{
+                    flex: 0.35;
+                    margin-bottom: 10px;
+
+                    h3{
+                        font-size: 17px;
+                        font-weight: 700;
+                    }
+
+                    p{
+                        font-size: 15px;
+                        font-weight: 300;
+                    }
+                }
+
+                .content{
+                    flex: 0.65;
+                    font-size: 15px;
+                    font-weight: 300;
+
+                    h3{
+                        font-size: 17px;
+                        font-weight: 500;
+                        padding-bottom: 3px;
+                    }
+
+                    .list{
+
+                        ul.listStyle {
+                            list-style-position: inside;
+                            padding: 5px;
+                            font-size: 15px;
+                            font-weight: 300;
+                            padding-bottom: 10px;
+
+                            li{
+                                padding-bottom: 6px;                               
+                            }
+                          }
+                    }                    
+                }
+            }
+            padding-bottom: 15px;
+            border-bottom: groove 1px;
+        }        
+    }
+
+    .right{
+        flex: 0.2;
+        background-color: rgb(196, 228, 223);
+        padding-bottom: 15px;
+        .skills{
+            margin: 20px;
+            h1{
+                font-family: sans-serif;
+                margin: 10px auto;
+                color: #0f4427;
+                font-size: 25px;
+            }
+
+            ul{
+                list-style-position: inside;
+                padding: 5px;
+                font-size: 17px;
+                font-weight: 300;
+                padding-bottom: 10px;
+
+                li{
+                    padding-bottom: 6px;
+                    font-weight: 500;                               
+                }
+              }
+        }
+        .resume{
+            align-items: center;
+            justify-content: center;
+
+            a{
+                padding-top: 20px;
+                font-size: 20px;
+                font-weight: 500;
+            }
+
+            a:link{
+                color:darkgreen;
+            }
+
+            a:hover   {color:rgb(10, 175, 32);}
+        }
+       
+        
+
+    }
 }
