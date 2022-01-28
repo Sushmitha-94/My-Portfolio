@@ -1,5 +1,7 @@
 import "./menu.scss";
 
+
+
 export default function Menu({menuOpen, setMenuOpen}) {
   return <div className={"menu " + (menuOpen && "active")}>
       <ul>
@@ -13,7 +15,7 @@ export default function Menu({menuOpen, setMenuOpen}) {
               <a href="#resume">Resume</a>
           </li>
           <li onClick={()=>setMenuOpen(false)}>
-              <a href="#contact">Contact</a>
+              <a href="#" onClick={() => window.location = 'mailto:st.sushmi@gmail.com'}>Contact</a>
           </li>
       </ul>
   </div>;

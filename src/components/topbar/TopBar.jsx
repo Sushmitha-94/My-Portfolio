@@ -8,7 +8,7 @@ export default function TopBar({menuOpen, setMenuOpen}) {
             <div className="itemContainer">
               
               <span>
-                <a href="#contact"><Mail className="icon"/><span>st.sushmi@gmail.com</span></a>
+                <a href="#" onClick={() => window.location = 'mailto:st.sushmi@gmail.com'}><Mail className="icon"/><span>st.sushmi@gmail.com</span></a>
               </span>
             </div>
           </div>

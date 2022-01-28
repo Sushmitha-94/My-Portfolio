@@ -1,5 +1,8 @@
+@import "../../global.scss";
+
 .resume{
     display: flex;
+    position: relative;
 
     .left{
         flex: 0.8;
@@ -13,11 +16,15 @@
                 margin: 10px auto;
                 color: #0f4427;
                 font-size: 25px;
+
+                @include tab{
+                    font-size: 20px;
+                }
               }
 
             .innerSec{
                 display: flex;
-
+                margin-bottom: 10px;
                 .heading{
                     flex: 0.35;
                     margin-bottom: 10px;
@@ -25,11 +32,17 @@
                     h3{
                         font-size: 17px;
                         font-weight: 700;
+                        @include tab{
+                            font-size: 15px;
+                        }
                     }
 
                     p{
                         font-size: 15px;
                         font-weight: 300;
+                        @include tab{
+                            font-size: 13px;
+                        }
                     }
                 }
 
@@ -42,6 +55,9 @@
                         font-size: 17px;
                         font-weight: 500;
                         padding-bottom: 3px;
+                        @include tab{
+                            font-size: 15px;
+                        }
                     }
 
                     .list{
@@ -53,16 +69,25 @@
                             font-weight: 300;
                             padding-bottom: 10px;
 
+                            @include tab{
+                                font-size: 13px;
+                            }
+
                             li{
                                 padding-bottom: 6px;                               
                             }
                           }
                     }                    
                 }
+
+                @include tab{
+                    flex-direction:column;
+                }
             }
             padding-bottom: 15px;
             border-bottom: groove 1px;
-        }        
+        }  
+        
     }
 
     .right{
@@ -76,6 +101,9 @@
                 margin: 10px auto;
                 color: #0f4427;
                 font-size: 25px;
+                @include tab{
+                    font-size: 20px;
+                }
             }
 
             ul{
@@ -84,10 +112,17 @@
                 font-size: 17px;
                 font-weight: 300;
                 padding-bottom: 10px;
+                @include tab{
+                    font-size: 15px;
+                }
 
                 li{
                     padding-bottom: 6px;
                     font-weight: 500;                               
+                }
+
+                @include tab{
+                    list-style-position: outside;
                 }
               }
         }
@@ -99,6 +134,10 @@
                 padding-top: 20px;
                 font-size: 20px;
                 font-weight: 500;
+
+                @include tab{
+                    font-size: 18px;
+                }
             }
 
             a:link{
@@ -107,8 +146,7 @@
 
             a:hover   {color:rgb(10, 175, 32);}
         }
-       
-        
-
     }
+
+    
 }

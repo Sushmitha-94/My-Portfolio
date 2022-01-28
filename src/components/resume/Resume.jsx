@@ -19,12 +19,12 @@ export default function Resume() {
             
             <div className="innerSec">
                   <div className="heading">
-                      <h3>University of Central Missouri</h3>
-                      <p>Expected Graduation: December 2022</p>
+                      <h3>Saranathan College of Engineering, India</h3>
+                      <p>July 2011 - May 2015</p>
                   </div>
                   <div className="content">
-                      <h3>Master of Science in Computer Science</h3>
-                      <p>Major GPA: 4.0 / 4.0</p>
+                      <h3>Bachelor of Engineering in Computer Science</h3>
+                      
                   </div>
             </div>          
         </div>
@@ -81,7 +81,8 @@ export default function Resume() {
                 </div>
             </div>
           
-        </div>   
+        </div>  
+        
     </div>
     <div className="right">
         <div className="skills">
@@ -111,8 +112,7 @@ export default function Resume() {
         <div className="resume">
             <a href="/assets/Susmitha_Tamilselvan.pdf" download>Download Resume</a>
         </div>
-
-
     </div>
+    
   </div>;
 }
