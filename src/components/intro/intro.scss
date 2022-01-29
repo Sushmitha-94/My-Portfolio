@@ -2,17 +2,13 @@
 
 .intro{
     display: flex;
-
     @include tab{
         flex-direction: column;
         align-items: center;
     }
-
     .left{
         flex: 0.5;
         text-align: center;
-        
-
         .wrapper{
             width: 100%;
             height: 100%;
@@ -21,33 +17,27 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-
             @include tab{
                 padding-left: 0;
                 padding-right: 0;
                 align-items: center;
             }
-
             h2{
                 font-size: 25px;
                 margin: 10px 0;
                 font-weight: normal;
-
                 @include tab{
                     font-size: 15px;
                 }
             }
-
             h1{
                 font-size: 35px;
                 margin: 10px 0;
                 font-weight: normal;
-
                 @include tab{
                     font-size: 25px;
                 }
             }
-
             img{
                 display: block;
                 margin-left: auto;
@@ -56,14 +46,11 @@
             }
         }
     }
-
     .right{
         flex: 0.5;
         text-align: center;
         font-size: 30px;
-        position: relative;
-        
-
+        position: relative;        
         .wrapper{
             width: 85%;
             height: 100%;
@@ -72,37 +59,29 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-
             @include tab{
                 width: 100%;
                 padding-left: 0;
                 padding-right: 0;
                 align-items: center;
             }
-
             h3{
                 font-size: 30px;
                 margin: 10px 0;
                 font-weight: normal;
-
                 @include tab{
                     font-size: 20px;
                 }
             }
-
             p{
                 font-size: 20px;
                 margin: 10px 10px;
                 font-weight: 300;
-
                 @include tab{
                     font-size: 15px;
                 }
             }
-
-            .buttons{
-
-                
+            .buttons{                
                 display: flex;
                 justify-content: center;
                 button{
@@ -116,40 +95,32 @@
                     font-weight: 500;
                     cursor: pointer;
                     transition: all 1s ease;
-
                     &:hover{
                         color: black;
                         background-color: lightgray;
                     }
                 }
-
                 @include tab{
                     flex-direction: column;
                     align-items: center;
                 }
-            }
-            
+            }           
         }
         a{
             position: absolute;
             bottom: 10px;
             left: 10px;
-
             img{
                 width: 30px;
             }
-
         }
     }
-
     a{
         position: absolute;
         bottom: 10px;
         left: 50%;
-
         img{
             width: 30px;
         }
-
     }
 }
