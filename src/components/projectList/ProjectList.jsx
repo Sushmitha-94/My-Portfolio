@@ -1,4 +1,8 @@
 import "./projectList.scss";
+import {GitHub} from '@material-ui/icons';
+import {PageviewOutlined} from '@material-ui/icons';
+
+
 
 export default function ProjectList({title, imgSrc, git, live}){
 
