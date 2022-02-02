@@ -6,31 +6,27 @@ export default function Projects() {
     const list = [
       {
           "id" : 1,
-          "title" : "Java",
+          "title" : "Sorting Visualizer",
           "imgSrc" : "assets/project.jpeg",
-          "GitRepo" : "",
-          "liveLink" : ""
+          "GitRepo" : "https://github.com/Sushmitha-94/SortingVisualizer",
+          "liveLink" : "https://sushmitha-94.github.io/SortingVisualizer/",
+          "langUsed" : "React/GitHub Pages"
       },
       {
           "id" : 2,
-          "title" : "JS",
+          "title" : "Short URL",
           "imgSrc" : "assets/project.jpeg",
-          "GitRepo" : "",
-          "liveLink" : ""
+          "GitRepo" : "https://github.com/Sushmitha-94/urlShortner",
+          "liveLink" : "",
+          "langUsed" : "Node.js/Express/MongoDB"
       },
       {
           "id" : 3,
           "title" : "DS and Algo",
           "imgSrc" : "assets/project.jpeg",
-          "GitRepo" : "",
-          "liveLink" : ""
-      },
-      {
-          "id" : 4,
-          "title" : "Ticket",
-          "imgSrc" : "assets/project.jpeg",
-          "GitRepo" : "",
-          "liveLink" : ""
+          "GitRepo" : "https://github.com/Sushmitha-94/2021DS",
+          "liveLink" : "",
+          "langUsed" : "Java"
       }
     ]
 
