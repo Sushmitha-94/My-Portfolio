@@ -101,7 +101,7 @@ export default function Resume() {
               </ul>
             </div>
             <div className="resume">
-                <a href="/assets/Susmitha_Tamilselvan.pdf" download>Download Resume</a>
+                <a href={process.env.PUBLIC_URL + "/assets/Susmitha_Tamilselvan.pdf"} download>Download Resume</a>
             </div>
         </div>      
     </div>;
