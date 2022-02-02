@@ -8,7 +8,7 @@ export default function Projects() {
       {
           "id" : 1,
           "title" : "Sorting Visualizer",
-          "imgSrc" : "/assets/project.jpeg",
+          "imgSrc" : "/assets/sort.png",
           "GitRepo" : "https://github.com/Sushmitha-94/SortingVisualizer",
           "liveLink" : "https://sushmitha-94.github.io/SortingVisualizer/",
           "langUsed" : "React/GitHub Pages"
@@ -16,7 +16,7 @@ export default function Projects() {
       {
           "id" : 2,
           "title" : "Short URL",
-          "imgSrc" : "/assets/project.jpeg",
+          "imgSrc" : "/assets/mongo.png",
           "GitRepo" : "https://github.com/Sushmitha-94/urlShortner",
           "liveLink" : "",
           "langUsed" : "Node.js/Express/MongoDB"
@@ -24,7 +24,7 @@ export default function Projects() {
       {
           "id" : 3,
           "title" : "DS and Algo",
-          "imgSrc" : "/assets/project.jpeg",
+          "imgSrc" : "/assets/dsAl.png",
           "GitRepo" : "https://github.com/Sushmitha-94/2021DS",
           "liveLink" : "",
           "langUsed" : "Java"
