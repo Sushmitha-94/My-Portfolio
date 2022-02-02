@@ -5,7 +5,7 @@ function intro(){
     return <div className="intro" id="intro">
         <div className="left">
             <div className="wrapper">
-                <img src="assets/girl_logo.png" alt=""/>     
+                <img src={process.env.PUBLIC_URL + "/assets/girl_logo.png"} alt=""/>     
                 <h2> Hi There! I'm</h2>
                 <h1>Susmitha</h1>
                 <h1>Tamilselvan</h1>
@@ -33,7 +33,7 @@ function intro(){
             </div>        
         </div>  
         <a href="#projects">
-            <img src="assets/down.png" alt=""/>
+            <img src={process.env.PUBLIC_URL + "/assets/down.png"} alt=""/>
         </a>  
     </div>;
 }

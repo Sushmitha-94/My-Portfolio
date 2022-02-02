@@ -1,5 +1,6 @@
 import "./projects.scss";
 import ProjectList from "../projectList/ProjectList";
+import {GitHub} from '@material-ui/icons';
 
 export default function Projects() {
 
@@ -7,7 +8,7 @@ export default function Projects() {
       {
           "id" : 1,
           "title" : "Sorting Visualizer",
-          "imgSrc" : "assets/project.jpeg",
+          "imgSrc" : "/assets/project.jpeg",
           "GitRepo" : "https://github.com/Sushmitha-94/SortingVisualizer",
           "liveLink" : "https://sushmitha-94.github.io/SortingVisualizer/",
           "langUsed" : "React/GitHub Pages"
@@ -15,7 +16,7 @@ export default function Projects() {
       {
           "id" : 2,
           "title" : "Short URL",
-          "imgSrc" : "assets/project.jpeg",
+          "imgSrc" : "/assets/project.jpeg",
           "GitRepo" : "https://github.com/Sushmitha-94/urlShortner",
           "liveLink" : "",
           "langUsed" : "Node.js/Express/MongoDB"
@@ -23,7 +24,7 @@ export default function Projects() {
       {
           "id" : 3,
           "title" : "DS and Algo",
-          "imgSrc" : "assets/project.jpeg",
+          "imgSrc" : "/assets/project.jpeg",
           "GitRepo" : "https://github.com/Sushmitha-94/2021DS",
           "liveLink" : "",
           "langUsed" : "Java"
@@ -34,12 +35,12 @@ export default function Projects() {
         <h1>Projects</h1>
         <div className="container">
             { list.map((item) => 
-            <ProjectList title={item.title} imgSrc={item.imgSrc} git={item.GitRepo} live={item.liveLink}/>
+            <ProjectList title={item.title} imgSrc={item.imgSrc} git={item.GitRepo} live={item.liveLink} lang={item.langUsed}/>
             )
             }          
         </div>
-        <a href="#resume">
-            <img src="assets/down.png" alt=""/>
+        <a className="arrow" href="#resume">
+            <img src={process.env.PUBLIC_URL + "/assets/down.png"} alt=""/>
         </a>
 
     </div>;
