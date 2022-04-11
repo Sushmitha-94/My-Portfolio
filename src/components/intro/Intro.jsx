@@ -17,7 +17,7 @@ function intro(){
                   FullStack Developer
                 </h3> 
                 <p>
-                  Graduate student and Full Stack Developer with 6+ years of hands-on experience designing, developing, and implementing applications and solutions using a range of technologies and programming languages.
+                  Graduate student and Full Stack Developer with hands-on experience in designing, developing, and implementing applications and solutions using a range of technologies and programming languages.
                 </p>
                 <div className="buttons">               
                     <button type="Submit" onClick={(e) => {
